@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DDalgiDanguenGame/static/css/main.0d80b8f2.css",
-    "main.js": "/DDalgiDanguenGame/static/js/main.81d32764.js",
+    "main.css": "/DDalgiDanguenGame/static/css/main.736f01d1.css",
+    "main.js": "/DDalgiDanguenGame/static/js/main.e7f5996b.js",
     "static/js/787.f09cfb2b.chunk.js": "/DDalgiDanguenGame/static/js/787.f09cfb2b.chunk.js",
     "static/media/neodgm.ttf": "/DDalgiDanguenGame/static/media/neodgm.3a7207c26f30fc86a724.ttf",
     "static/media/logo.svg": "/DDalgiDanguenGame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/DDalgiDanguenGame/index.html",
-    "main.0d80b8f2.css.map": "/DDalgiDanguenGame/static/css/main.0d80b8f2.css.map",
-    "main.81d32764.js.map": "/DDalgiDanguenGame/static/js/main.81d32764.js.map",
+    "main.736f01d1.css.map": "/DDalgiDanguenGame/static/css/main.736f01d1.css.map",
+    "main.e7f5996b.js.map": "/DDalgiDanguenGame/static/js/main.e7f5996b.js.map",
     "787.f09cfb2b.chunk.js.map": "/DDalgiDanguenGame/static/js/787.f09cfb2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d80b8f2.css",
-    "static/js/main.81d32764.js"
+    "static/css/main.736f01d1.css",
+    "static/js/main.e7f5996b.js"
   ]
 }
