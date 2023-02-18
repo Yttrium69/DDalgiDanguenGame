@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.WatermelonBtn_div:last-child .WatermelonBtn_btn{
+  background-color: red;
+}
+
+.WatermelonBtn_div{
+  width:45%;
+}

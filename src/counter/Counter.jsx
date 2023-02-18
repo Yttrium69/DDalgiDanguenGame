@@ -52,28 +52,28 @@ class Counter extends Component {
     changeToImg(title, color){
         // color="_red"
         let tmp=<div></div>;
-        const imgPath="img/"+title+color+".png";
+        const imgPath="https://yttrium69.github.io/DDalgiDanguenGame/img/"+title+color+".png";
         tmp=<img alt={title} src={imgPath}></img>
         return tmp;
     }
 
         render() {
             return(
-            <div>
-                <h1>딸기당근수박참외메론게임</h1>
+            <div class="div_board">
+                <h1>&lt;&lt; 딸기당근수박참외메론게임 &gt; &gt;</h1>
                 <ShowBoard 
                 changeToImg={this.changeToImg}
                 fruitArr={this.state.fruitArr}
                 clearArr={this.clearArr}
                 ></ShowBoard>
-                    <div class="Counter_btnArea">
+                <div class="Counter_btnArea">
                         <WatermelonBtn changeToImg={this.changeToImg} title="딸기" onWatermelon={this.addWatermelon}></WatermelonBtn>
                         <WatermelonBtn changeToImg={this.changeToImg} title="수박" onWatermelon={this.addWatermelon}></WatermelonBtn>
                         <WatermelonBtn changeToImg={this.changeToImg} title="당근" onWatermelon={this.addWatermelon}></WatermelonBtn>
                         <WatermelonBtn changeToImg={this.changeToImg} title="멜론" onWatermelon={this.addWatermelon}></WatermelonBtn>
                         <WatermelonBtn changeToImg={this.changeToImg} title="참외" onWatermelon={this.addWatermelon}></WatermelonBtn>
                         <WatermelonBtn changeToImg={this.changeToImg} title="게임" onWatermelon={this.addWatermelon}></WatermelonBtn>
-                    </div>
+                </div>
             </div>
             )
         }
