@@ -70,7 +70,7 @@ h1{
 
 
 .Counter_btnArea{
-  width:80vw;
+  width:85vw;
   padding:10px 10px 0px 10px;
   margin:auto;
   display: flex;
@@ -124,8 +124,8 @@ h1{
 .ShowBoard_div>span>img{
   /* width:100px;
   height: 100px; */
-  width: 20vh;
-  height: 20vh;
+  width: 15vh;
+  height: 15vh;
 }
 
 

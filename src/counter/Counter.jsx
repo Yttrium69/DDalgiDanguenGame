@@ -60,7 +60,7 @@ class Counter extends Component {
         render() {
             return(
             <div class="div_board">
-                <h1>&lt;&lt; 딸기당근수박참외메론게임 &gt; &gt;</h1>
+                <h1>&lt;&lt; 딸기당근수박참외메론게임 &gt;&gt;</h1>
                 <ShowBoard 
                 changeToImg={this.changeToImg}
                 fruitArr={this.state.fruitArr}
