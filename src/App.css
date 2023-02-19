@@ -62,7 +62,7 @@ h1{
 }
 
 .div_board{
-  padding-top: 50px;
+  padding-top: 15vh;
   width:100%;
   height: 100%;
   margin:auto;
@@ -71,7 +71,7 @@ h1{
 
 .Counter_btnArea{
   width:90vw;
-  padding:10px;
+  padding:10px 10px 0px 10px;
   margin:auto;
   display: flex;
   justify-content: space-between;
@@ -95,14 +95,18 @@ h1{
   border-radius: 10px;
   height:10vh;
   text-align: center;
+  transition: 0.1s;
 }
 
-.WatermelonBtn_btn:not(:nth-child(3n)){
+.WatermelonBtn_btn:active{
+  background-color: hsl(115, 59%, 32%);
+}
+
+.WatermelonBtn_btn{
   margin-bottom: 10px;
 }
 
 .ShowBoard_div{
-  margin-top: 150px;
   height: 20vh;
   text-align: center;
   display: flex;
@@ -118,8 +122,8 @@ h1{
 }
 
 .ShowBoard_div>span>img{
-  width:130px;
-  height: 130px;
+  width:100px;
+  height: 100px;
 }
 
 
@@ -127,6 +131,11 @@ h1{
 .WatermelonBtn_div:last-child .WatermelonBtn_btn{
   background-color: rgb(255, 0, 111);
   color: #FFE300;
+  transition: 0.1s;
+}
+
+.WatermelonBtn_div:last-child .WatermelonBtn_btn:active{
+  background-color: #cf025b;
 }
 
 .WatermelonBtn_div{
