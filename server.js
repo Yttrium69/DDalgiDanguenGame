@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended:"true"}));
 
 var http=require('http').Server(app);
 
-const port=5000;
+const port=3000;
 
 // app.get('*', (req, res) => {
 //     res.sendFile(path.join(__dirname, './index.html'));
